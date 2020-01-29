@@ -1,0 +1,190 @@
+                                    /* Hello And Welcome "The-X Lancer" */
+/* Starting Rulez */
+
+.container {width: 1170px; margin: auto;}
+.clear-fix {clear: both;}
+
+/*** starting The body Here ********************************************************************/
+
+/* Starting the Header Section Here */
+
+.header {background-image: url("../images/bg.jpg"); height: 900px;
+-webkit-background-size: cover; /* Css3 Style That I didnt Studied Yet But Copied From Mr/OsamaElzero */
+-moz-background-size: cover; /* Css3 Style That I didnt Studied Yet But Copied From Mr/OsamaElzero */
+-o-background-size: cover; /* Css3 Style That I didnt Studied Yet But Copied From Mr/OsamaElzero */
+background-size: cover; /* Css3 Style That I didnt Studied Yet But Copied From Mr/OsamaElzero */
+position: relative; top: 0; left: 0;} 
+.header .gred {background-image: url("../images/gred.png"); position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.header .u-nav {overflow: hidden;}
+.header .u-nav .logo {float: left; color: white;}
+.header .u-nav ul {list-style: none; padding: 0; float: right; overflow: hidden;}
+.header .u-nav ul li {float: left; margin: 0 5px; color: white; padding: 5px; text-transform: uppercase;}
+.header .u-nav ul li:hover ,
+.header .u-nav .active {color: #fbe286; border-bottom: 2px solid #fbe286;}
+.header .slider {text-align: center; color: white; margin-top: 200px;}
+.header .slider .slider-hr {width: 50px; background-color: white; height: 3px; border: none}
+.header .slider h2 {font-size: 40px; margin-bottom: 20px; font-family: "Comic Sans MS", cursive, sans-serif}
+.header .slider h1 {font-size: 90px; margin: 0; text-transform: uppercase;}
+.header .slider button {background: none; color: white; border: 1px solid white; padding: 3px 20px; margin-top: 30px; cursor: pointer;}
+.header .l-nav {overflow: hidden; color: white; margin-top: 200px;}
+.header .l-nav .feet {float: left; width: 22.5%; padding-left: 10px;}
+.header .l-nav .feet > div {background-color: white;}
+.header .l-nav .feet span {display: block; background-color: #fd7e78;}
+/* Ending the Header Section Here */
+
+/* Starting The About Us Section Here */
+
+.about-us {text-align: center; padding: 50px 0}
+.about-us h3 {font-family: "Comic Sans MS", cursive, sans-serif}
+.about-us h2 {text-transform: uppercase; margin: -5px 0 30px 0;}
+.about-us p {line-height: 1.7; margin: 50px 0 70px 0;}
+.about-us .story-hr {width: 50px; background-color: #fd7e78; height: 3px; border: none;}
+.about-us .con {overflow: hidden;}
+.about-us .con .ft {float: left; width: 33.3333%;}
+
+/* Ending The About Us Section Here */
+
+/* Starting The Work Section Here */
+
+.work {overflow: hidden; background-color: #95e1d4; color: white; text-align: center; padding: }
+.work .feet {float: left; width: 19%; border-left: 1px solid white;}
+.work .feet h1 {font-size: 50px;}
+#l {border-right: 1px solid white; color: yellow;}
+.work .feet p {text-transform: uppercase;}
+.work .feet:hover {color: yellow;}
+
+/* Ending The Work Section Here */
+
+/* Starting the Services Section Here */
+
+.service {text-align: center; padding: 50px 0}
+.service h3 {font-family: "Comic Sans MS", cursive, sans-serif}
+.service h2 {text-transform: uppercase; margin: -5px 0 30px 0;}
+.service .story-hr {width: 50px; background-color: #fd7e78; height: 3px; border: none;}
+.service .con {overflow: hidden; padding-top: 20px;}
+.service .con .ft {float: left; width: 33.3333%; overflow: hidden;}
+.service .con .ft .im ,
+.service .con .ft .info {float: left;}
+.service .con .ft .im {width: 20%; margin: 30px auto;}
+.service .con .ft .info {width: 80%; text-align: left;}
+.service .con .ft .info h4 {text-transform: uppercase;}
+.service .con .ft .info p {line-height: 1.5;}
+/* Starting the Services Section Here */
+
+/* Starting the "Design" Section Here */ 
+
+.design {background-image: url("../images/bg2s.jpg"); height: 600px; position: relative; top: 0; left: 0; right: 0
+-webkit-background-size: cover; /* The Same Css3 Style */
+-o-background-size: cover; /* The Same Css3 Style */
+-moz-background-size: cover; /* The Same Css3 Style */
+background-size: cover;}
+.design .gred2 {background-image:url("../images/gred2s.png"); width: 100%; height: 100%;}
+.design .gred2 h3 {font-family: "Comic Sans MS", cursive, sans-serif; padding-top: 70px;}
+.design .gred2 h2 {text-transform: uppercase; margin: -5px 0 30px 0;}
+.design .gred2 .img {position: absolute; top: 350px; left: 900px;}
+/* Ending the "Design" Section Here */
+
+/* Starting The Service2 Section Here */
+
+.service2 {padding: 50px 0}
+.service2 p {line-height: 1.5;}
+
+/* Ending The Service2 Section Here */
+
+/* Starting the Logos Section Here */
+
+.logos {background-color: #c2c2c2; padding: 50px 0;}
+.logos img {margin: 0 30px;}
+
+/* Ending the Logos Section Here */
+
+/* Starting the Gallery Section Here */
+
+.gallery {padding: 50px 0; overflow: hidden;}
+.gallery p {line-height: 1.5; margin: 40px 0 70px 0;}
+.gallery .gp {float: left;}
+.gallery .gp img {display: block; width: 100%;}
+
+/* Ending the Gallery Section Here */
+
+/* Starting The openions Section here */
+
+.openions {padding: 30px 0; text-align: left;}
+.openions .con {width: 70%; margin: auto; overflow: hidden;}
+.openions .feet ,
+.openions .img {float: left; margin-right: 20px;}
+.openions .info {margin: 20px;}
+.openions .info q {line-height: 1.5;}
+.openions .info .story-hr {display: inline-block; margin-top: 20px;}
+
+/* Ending The openions Section here */
+
+/* Starting The clients Section here */
+
+.clients {background-image: url("../images/cl.jpg"); height: 500px; position: relative; top: 0; left: 0;}
+.clients .gred {background-image: url("../images/clg.png"); position: absolute; top:0; left:0 ; width: 100%; height: 100%;}
+.clients .gred h3 {margin-top: 70px;}
+.clients .gred h2 {margin-bottom: 15px;}
+.clients .gred .con {overflow: hidden; width: 70%; margin: auto;}
+.clients .gred .con .scon {float: left; width: 50%; overflow: hidden; margin: 20px 0;}
+.clients .gred .con .scon .img ,
+.clients .gred .con .scon .info {float: left; text-align: left;}
+.clients .gred .con .scon .img {width: 20%;}
+.clients .gred .con .scon .info {width: 80%;}
+.clients .gred .con .scon .info h4 {margin: 0 0 5px 0; padding: 0}
+.clients .gred .con .scon .info .story-hr {margin: 5px 0 0 0;}
+.clients .gred .con .scon .info p {margin: 5px 0 0 0; padding: 0;}
+/* Ending The clients Section here */
+
+/* Starting The Blog section here */
+
+.blog {padding: 30px 0;}
+.blog .con {overflow: hidden;}
+.blog .con .feet {float: left; width: 33.3333%; margin-top: 20px;}
+.blog .con .feet .img {position: relative; top:0; left:0;}
+.blog .con .feet .img .simg {position: absolute; top:130px; left: 30px;}
+
+/* Ending The Blog section here */
+
+/* Starting Map Section Here */
+
+.map {background-image: url("../images/world.jpg"); height: 170px; color: #CC4141;}
+.map img {margin: 30px 0 20px 0;}
+
+/* Ending Map Section Here */
+
+/* Starting The Footer Section Here */
+
+.footer {margin-bottom: -40px;}
+.footer .con {overflow: hidden;}
+.footer .con .feet {float: left; width: 33.3333%; overflow: hidden;}
+#ft1 {color: gray; text-align: left; overflow: hidden;}
+#ft1 h5 {color: black;}
+.footer .feet .sfeet ,
+.footer .feet .ssfeet ,
+.footer .feet .sssfeet {float: left; margin-top: -5px; text-align: left;}
+.footer .feet .ssfeet ul {list-style: none; padding-left: 0; display: inline-block; margin-left: 40px;}
+.footer .feet .ssfeet ul li {float: left; margin-left: 10px; cursor: pointer;}
+.footer .feet .sfeet {width: 40%;}
+.footer .feet .ssfeet {width: 60%;}
+.footer .feet .sssfeet {width: 100%;}
+.footer .feet .sssfeet input[type="text"] {border: .5px solid #e8e8e8; color: gray; width: 40%; padding: 10px;}
+.footer .feet .sssfeet input[type="submit"] {border: none; color: white; width: 40%; padding: 11px; background-color: #95e1d4; cursor: pointer; margin-left: -5px;}
+.footer .feet  {text-align: left; color: gray;}
+.footer .feet h5 {color: black; padding-left: 20px;}
+.footer .feet .con {overflow: hidden;}
+.footer .feet .con .img ,
+.footer .feet.con .info {float: left;}
+.footer .feet .con .img {width: 30%; padding-left: 20px;}
+.footer .feet .con .info {width: 70%;}
+.footer .feet .con .info p {color: black; margin: 10px 0 7px 0;}
+.footer .feet .con .info em {color: gray;}
+.footer .feet .cont {overflow: hidden; padding-left:20px;}
+.footer .feet .cont .img {float: left; margin: 5px; }
+#ft3 h5 {margin-bottom: 40px;}
+.footer span {color: Green;}
+
+/* Ending The Footer Section Here */
+
+/*** Ending The Body Here *********************************************************************/
+
